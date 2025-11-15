@@ -1,5 +1,7 @@
 # Media files
 media/
+**/media/
+multimodal-auth-system/media/
 
 # Python
 __pycache__/
