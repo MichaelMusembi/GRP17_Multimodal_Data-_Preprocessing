@@ -1,18 +1,28 @@
 # Core libraries
-numpy==1.24.3
-pandas==2.0.3
-scikit-learn==1.3.0
+numpy
+pandas
+scikit-learn
 
 # Machine Learning Models
-lightgbm==4.6.0
-xgboost==3.1.1
-joblib==1.3.2
+lightgbm
+xgboost
+joblib
 
 # Data Visualization
-matplotlib==3.7.2
-seaborn==0.12.2
+matplotlib
+seaborn
 
 # Development Tools (for running notebooks)
-jupyter==1.0.0
-notebook==7.0.2
-ipykernel==6.25.0
+jupyter
+notebook
+ipykernel
+
+tensorflow
+
+# Image Processing
+opencv-python
+Pillow
+
+# Audio Processing
+librosa
+soundfile
