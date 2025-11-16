@@ -99,8 +99,6 @@ multimodal-auth-system/
 │   └── product_prediction.ipynb       # ML model training
 ├── script/
 │   ├── app.py                         # Production CLI application
-│   ├── multimodal_simulator.py        # Comprehensive testing simulator
-│   └── simple_simulator.py            # Lightweight demo version
 ├── .gitignore                         # Git ignore rules
 └── requirements.txt                   # Python dependencies
 ```
@@ -183,7 +181,7 @@ python app.py --image ../media/images/gustav_neutral.jpeg --audio ../media/audio
 
 ### Installation
 ```bash
-git clone [https://github.com/MichaelMusembi/GRP17_Multimodal_Data-_Preprocessing.git]
+git clone https://github.com/MichaelMusembi/GRP17_Multimodal_Data-_Preprocessing.git
 cd multimodal-auth-system
 pip install -r requirements.txt
 ```
@@ -205,6 +203,3 @@ python app.py -i ../media/images/uknown_face.jpeg -a ../media/audio/Unknown-voic
 
 ## 👥 **Team**
 Group 17 - Multimodal Authentication System
-
----
-*Advanced biometric authentication with personalized recommendations*
