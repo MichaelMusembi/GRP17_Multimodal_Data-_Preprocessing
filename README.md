@@ -141,12 +141,6 @@ Production-ready authentication system for direct testing.
 python app.py --image ../media/images/gustav_neutral.jpeg --audio ../media/audio/gustav_approve.m4a
 ```
 
-#### **3. Simplified Demo** (`simple_simulator.py`)
-Lightweight simulator with predefined responses (no dependencies required).
-```bash
-python simple_simulator.py
-```
-
 ### Simulation Scenarios
 
 **✅ Authorized Transaction**
@@ -189,7 +183,7 @@ python simple_simulator.py
 
 ### Installation
 ```bash
-git clone [repository-url]
+git clone [https://github.com/MichaelMusembi/GRP17_Multimodal_Data-_Preprocessing.git]
 cd multimodal-auth-system
 pip install -r requirements.txt
 ```
@@ -197,7 +191,7 @@ pip install -r requirements.txt
 ### Run Simulation
 ```bash
 cd script
-python multimodal_simulator.py
+python app.py
 ```
 
 ### Test Scenarios
