@@ -66,6 +66,9 @@ multimodal-auth-system/
 │   │   ├── reine_neutral.jpeg
 │   │   ├── reine_smiling.jpeg
 │   │   ├── reine_suprised.jpeg
+│   │   ├── eliel_neutral.jpeg
+│   │   ├── eliel_smiling.jpeg
+│   │   ├── eliel_suprised.jpeg
 │   │   └── uknown_face.jpeg
 │   └── audio/                          # Voice recognition data
 │       ├── gustav_approve.m4a
@@ -74,6 +77,8 @@ multimodal-auth-system/
 │       ├── michael_confirm.m4a
 │       ├── reine_approve.m4a
 │       ├── reine_confirm.m4a
+│       ├── eliel_approve.m4a
+│       ├── eliel_confirm.m4a
 │       └── Unknown-voice.m4a
 ├── models/
 │   ├── xgb_model.joblib               # XGBoost model (best performer)
